@@ -1,0 +1,26 @@
+{
+  "name": "purple-dark",
+  "displayName": "Purple Dark",
+  "description": "Purple Dark Theme!",
+  "publisher": "R. Santos",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "keywords": [
+    "theme, dark, purple, "
+  ],
+  "repository": "git",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-purple-color-theme.json"
+      }
+    ]
+  }
+}
