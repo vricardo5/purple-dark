@@ -1,24 +1,37 @@
 {
-  "name": "purple-dark",
+  "name": "purple-dark-theme",
   "displayName": "Purple Dark",
-  "description": "Purple Dark Theme!",
-  "publisher": "R. Santos",
-  "version": "0.0.1",
+  "description": "Purple Dark Theme! This is a second extension made...",
+  "publisher": "RSanttos",
+  "ID": "Rsanttos",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.80.0"
   },
   "keywords": [
-    "theme, dark, purple, "
+    "theme",
+    "dark",
+    "purple",
+    "dark theme",
+    "rsanttos",
+    "Sun Splash",
+    "Dark Themes"
   ],
-  "repository": "git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vricardo5/purple-dark"
+  },
   "categories": [
-    "Themes"
+    "Themes",
+    "Extension Packs"
   ],
+  "license": "MIT",
   "contributes": {
     "themes": [
       {
         "label": "Purple Dark Theme",
         "uiTheme": "vs-dark",
+        "icon": "./assets/icon.png",
         "path": "./themes/dark-purple-color-theme.json"
       }
     ]
