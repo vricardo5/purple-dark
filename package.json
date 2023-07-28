@@ -1,6 +1,6 @@
 {
-  "name": "purple-dark-theme",
-  "displayName": "Purple Dark",
+  "name": "sunsplash-purple-v1.0.0",
+  "displayName": "SunSplash Purple Dark ",
   "description": "Purple Dark Theme! This is a second extension made...",
   "publisher": "RSanttos",
   "ID": "Rsanttos",
@@ -29,7 +29,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Purple Dark Theme",
+        "label": "SunSplash Purple v1.0.0",
         "uiTheme": "vs-dark",
         "icon": "./assets/icon.png",
         "path": "./themes/dark-purple-color-theme.json"
